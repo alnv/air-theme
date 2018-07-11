@@ -454,7 +454,7 @@ span.invisible {
             height: 28px;
             display: block;
             margin-right: .4em;
-            background: url("/files/catalog-manager/media/icons/step-icon.svg") no-repeat center center;
+            background: url("/files/air-theme/media/icons/step-icon.svg") no-repeat center center;
           }
         }
       }
@@ -610,7 +610,7 @@ form {
     height: 40px;
     display: block;
     margin-right: .5em;
-    background: url('/files/catalog-manager/media/icons/shop-1-icon.svg') no-repeat center center;
+    background: url('/files/air-theme/media/icons/shop-1-icon.svg') no-repeat center center;
   }
 
   .shop-2-icon.legend:before {
@@ -620,7 +620,7 @@ form {
     height: 40px;
     display: block;
     margin-right: .5em;
-    background: url('/files/catalog-manager/media/icons/shop-2-icon.svg') no-repeat center center;
+    background: url('/files/air-theme/media/icons/shop-2-icon.svg') no-repeat center center;
   }
 
   .shop-3-icon.legend:before {
@@ -630,7 +630,7 @@ form {
     height: 40px;
     display: block;
     margin-right: .5em;
-    background: url('/files/catalog-manager/media/icons/shop-3-icon.svg') no-repeat center center;
+    background: url('/files/air-theme/media/icons/shop-3-icon.svg') no-repeat center center;
   }
 
   .shop-4-icon.legend:before {
@@ -640,7 +640,7 @@ form {
     height: 40px;
     display: block;
     margin-right: .5em;
-    background: url('/files/catalog-manager/media/icons/shop-4-icon.svg') no-repeat center center;
+    background: url('/files/air-theme/media/icons/shop-4-icon.svg') no-repeat center center;
   }
 }
 
@@ -822,7 +822,7 @@ header.header {
 
     &.loading {
 
-      background: url("/files/catalog-manager/media/icons/loading.gif") no-repeat center center;
+      background: url("/files/air-theme/media/icons/loading.gif") no-repeat center center;
       background-size: 24px 24px;
 
       img {
@@ -1416,7 +1416,7 @@ a.button {
       display: block;
 
       width: 24px;
-      background: url("/files/catalog-manager/media/icons/black-arrow-down.svg") no-repeat center center;
+      background: url("/files/air-theme/media/icons/black-arrow-down.svg") no-repeat center center;
     }
 
     &.ui-state-active {
@@ -1428,7 +1428,7 @@ a.button {
 
       &:after {
 
-        background: url("/files/catalog-manager/media/icons/black-arrow-up.svg") no-repeat center center;
+        background: url("/files/air-theme/media/icons/black-arrow-up.svg") no-repeat center center;
       }
     }
   }
@@ -1519,7 +1519,7 @@ a.button {
       bottom: 0;
       top: 0;
 
-      background: url("/files/catalog-manager/media/icons/green-arrow-right.svg") no-repeat center center;
+      background: url("/files/air-theme/media/icons/green-arrow-right.svg") no-repeat center center;
     }
   }
 }
@@ -1641,7 +1641,7 @@ a.button {
     width: 50px;
     max-width: 50px;
     min-height: 50px;
-    background: url("/files/catalog-manager/media/icons/green-arrow-right.svg") no-repeat center center;
+    background: url("/files/air-theme/media/icons/green-arrow-right.svg") no-repeat center center;
     background-size: 50px 50px;
 
     display: block;
@@ -1770,7 +1770,7 @@ div.message {
       width: 28px;
       height: 100%;
       margin: 0 .25em 0 0;
-      background: url("/files/catalog-manager/media/icons/green-arrow-right.svg") no-repeat center center;
+      background: url("/files/air-theme/media/icons/green-arrow-right.svg") no-repeat center center;
       background-size: 100% 100%;
     }
   }
