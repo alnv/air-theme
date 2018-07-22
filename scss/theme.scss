@@ -400,11 +400,6 @@ select {
 
   width: 100%;
   display: block;
-
-  @media only screen and (min-width: 512px) {
-
-    width: 49%;
-  }
 }
 
 span.invisible {
@@ -588,6 +583,14 @@ form {
         &.widget-select {
 
           width: 100%;
+
+          select {
+
+            @media only screen and (min-width: 512px) {
+
+              width: 49%;
+            }
+          }
         }
 
         &.widget-checkbox {
@@ -1467,6 +1470,58 @@ a.button {
 .mod_catalogUniversalView {
 
   margin: 2em 0;
+
+  .group {
+
+    margin: 2em 0;
+  }
+
+  .group_headline {
+
+    h1,
+    h2,
+    h3,
+    h4 {
+
+      font-size: 2rem;
+      line-height: 1.5;
+
+      background: 0;
+      color: #313131;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: #313131;
+    }
+  }
+
+  .group_content {
+
+    @media only screen and (min-width: 768px) {
+
+      display: flex;
+      margin: 0 -.5%;
+      flex-wrap: wrap;
+    }
+
+    @media only screen and (min-width: 768px) {
+
+      margin: 0 -0.665%;
+    }
+  }
+}
+
+.row {
+
+  @media only screen and (min-width: 768px) {
+
+    display: flex;
+    margin: 0 -.5%;
+    flex-wrap: wrap;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    margin: 0 -0.665%;
+  }
 }
 
 .list {
@@ -1663,14 +1718,42 @@ a.button {
       justify-content: space-between;
     }
 
-    .submit_container.col-30 {
+    &.columns {
 
-      width: 29%;
+      @media only screen and (min-width: 512px) {
+
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+      }
+    }
+
+    .submit_container {
+
+      &.col-25 {
+
+        width: 24%;
+      }
+
+      &.col-30 {
+
+        width: 29%;
+      }
     }
 
     .col-70 {
 
       width: 69%;
+    }
+
+    .col-50 {
+
+      width: 49%;
+    }
+
+    .col-25 {
+
+      width: 24%;
     }
   }
 
@@ -1680,6 +1763,11 @@ a.button {
     height: 42px;
     line-height: 42px;
   }
+}
+
+.awesomplete {
+
+  width: 100%;
 }
 
 div.box-layout {
@@ -1776,6 +1864,11 @@ div.message {
   }
 }
 
+.submit_container button {
+
+  width: 100%;
+}
+
 .ctlg_form {
 
   .submit_container {
@@ -1806,6 +1899,159 @@ div.back {
 
       color: #99CA84;
       text-decoration: underline;
+    }
+  }
+}
+
+
+
+.ce_card {
+
+  width: 100%;
+  padding: .75em;
+  background: #fff;
+  margin-bottom: 1em;
+  border: 1px solid #C8D2E6;
+
+  @media only screen and (min-width: 768px) {
+
+    width: 49%;
+    margin: 0 0.5% 1em 0.5%;
+  }
+
+  @media only screen and (min-width: 1024px) {
+
+    width: 32%;
+    margin: 0 0.665% 1em 0.665%;
+  }
+
+  h2,
+  h3 {
+
+    line-height: 1.5;
+    font-size: 1.35rem;
+    margin: 0 0 .5em 0;
+  }
+
+  .operations {
+
+    margin: 1em 0;
+    font-size: 1rem;
+
+    ul {
+
+      margin: 0;
+      padding-left: 0;
+
+      display: flex;
+      flex-flow: column;
+
+      li {
+
+        padding-left: 0;
+        margin-bottom: .5em;
+
+        &:before {
+
+          content: none;
+        }
+
+        a {
+
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+        }
+      }
+    }
+
+    img {
+
+      width: 24px;
+      height: 24px;
+      margin-right: .5em;
+    }
+  }
+
+  .entities {
+
+    padding: .5em;
+    margin: 1em 0;
+    background: #f1f1f1;
+
+    font-size: 1rem;
+    line-height: 1.4;
+
+    .entity {
+
+      margin-bottom: .5em;
+
+      &:last-child {
+
+        margin-bottom: 0;
+      }
+    }
+
+    .entity_name {
+
+      display: inline;
+      font-weight: 600;
+    }
+
+    .entity_value {
+
+      display: inline;
+
+      p {
+
+        margin: 0;
+        display: inline;
+      }
+    }
+  }
+
+  .wishlist {
+
+    margin: 1em 0;
+
+    form {
+
+      width: 100%;
+      max-width: 320px;
+
+      &.form-add {
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-between;
+      }
+
+      &.form-delete {
+
+        margin: .5em 0;
+        width: 100%;
+
+        .widget-submit {
+
+          width: 100%;
+        }
+      }
+    }
+
+    .widget {
+
+      margin-bottom: 0;
+    }
+
+    .widget-text {
+
+      width: 25%;
+    }
+
+    .widget-submit {
+
+      width: 70%;
     }
   }
 }
