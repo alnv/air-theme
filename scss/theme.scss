@@ -309,6 +309,9 @@ nav {
     display: block;
     padding: 0.25em 0;
     font-size: inherit;
+
+    font-weight: 300;
+    font-family: "Open sans Regular", Helvetica, sans-serif;
   }
 
   a {
@@ -732,7 +735,6 @@ header.header {
       strong {
 
         position: relative;
-        font-weight: 300;
         display: block;
         padding: 0;
 
@@ -1810,9 +1812,38 @@ div.back {
   }
 }
 
+#cboxWrapper {
+
+  padding: 40px 0 0 0;
+}
+
 #cboxOverlay {
 
   background: #fff;
+  opacity: .4;
+}
+
+#cboxLoadedContent {
+
+  border: none;
+}
+
+#cboxClose {
+
+  right: 0;
+  top: -40px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  background: url("/files/air-theme/media/icons/close.svg") no-repeat center center;
+  background-size: 28px 28px;
+  background-color: #fff;
+
+  &:hover,
+  &:focus {
+
+    background-position: center center;
+  }
 }
 
 .mw-768 {
