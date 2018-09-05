@@ -1,11 +1,23 @@
 @font-face {
 
-  font-family: "Open sans Regular";
+  font-family: "OpenSans Regular";
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
 
-  font-family: "Open sans Bold";
+  font-family: "OpenSans Light";
+  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+
+  font-family: "Questrial Regular";
+  src: url("../fonts/Questrial-Regular.ttf") format("truetype");
+}
+
+@font-face {
+
+  font-family: "OpenSans Bold";
   src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
 }
